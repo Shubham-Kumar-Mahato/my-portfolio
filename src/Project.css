@@ -1,0 +1,45 @@
+.collection-items-project{
+    border: 1px solid white;
+  
+    border-radius: 10px;
+margin: 10px auto;
+text-align: center;
+justify-content: center;
+width: fit-content;
+font-family: 'PT Sans',
+sans-serif !important;
+ display: flex;
+flex-wrap: wrap;
+flex-direction: column; 
+text-overflow: ellipsis;
+word-wrap: break-word;
+}
+.image-project{
+    width: 190px;
+    height: 137px;
+    border-radius: 7px;
+    margin: 10px auto;
+}
+.name-project{
+    font-size: 1.5rem;
+    color: aliceblue;
+
+}
+.link{
+    margin: 5px auto;
+    word-wrap: break-word;
+}
+.collection-projects{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media(max-width:505px){
+    .image-project{
+        height: 100px;
+        width: 150px;
+        border-radius: 7px;
+    }
+}
+
